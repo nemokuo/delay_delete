@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>第一個HTML5網頁</title>
+        <style>
+            /* body：標籤型態選擇器  */
+
+            body{
+                margin:0px;
+                background-color:whitesmoke;
+            }
+            /* ＃：ID選擇器  */
+            #header {
+                padding: 6px 14px;
+                background-color: #000;
+                color: #4800ff;
+                height: 120px;
+            }
+            #msection {
+                margin: 6px 4px;
+                background-color: silver;
+                height: 360px;
+                border: 1px solid red;
+            }
+
+            #footer {
+                text-align: center;
+                background-color: #808080;
+                color: #fff;
+                height: 66px;
+            }
+            #aside{
+border:1px solid blue;width:320px;float:right;
+            }
+
+            #ssection{
+                border:1px solid blue;width:640px;float:left;
+            }
+            #daylist,#menu{
+                margin:6px 12px;padding:0;   list-style:none;
+            }
+
+             /* class：類別選擇器  */
+
+             .dayn{
+                 cursor:pointer ;   padding:4px 12px;margin:6px 12px;border:1px solid #808080;color:blue;
+             }
+
+             .dayn:hover{
+                 color:red;
+                 font-size:18px;
+                 font-weight:800; 
+              }
+             .menulist{
+                 float:left; 
+                 width:120px;  
+                 cursor:pointer ;   
+                 padding:4px 12px;margin:6px 12px;border:1px solid #808080;color:red;
+             }
+        </style>
+
+    </head>
+    <body>       
+        <div id="header">
+            <h1 style="margin:0px;" > YS-HTML5 前端應用開發</h1>
+            <h3>HTML5與前端技術完整剖析、API應用討論</h3>
+
+          
+            <ul id="menu">
+                <li class="menulist">首頁</li>
+                <li class="menulist">課程資訊</li>
+                <li class="menulist">關於YS</li>
+                <li class="menulist">講師</li>
+            </ul>
+
+
+
+        </div>
+        <div id="msection" >
+            <div id="ssection" >
+                <h2>課程資訊</h2>
+                <ul>
+                    <li>日期：7/4,7/14</li>
+                    <li>時間：9:30 ~ 12:30</li>
+                    <li>地點：YS 職涯中心</li>
+                    <li>附件：HTML5 完美風暴</li>
+                </ul>
+                <h2>課程網要</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li> API</li>
+                </ul>
+            </div>
+            <div id="aside" >
+
+                <div class ="dayn">每日課綱連結</div>
+                <ul id="daylist">
+                    <li class="dayn" >Day 1</li>
+                    <li class="dayn" >Day 2</li>
+                    <li class="dayn">Day 3</li>
+                    <li class="dayn">Day 4</li>
+                    <li class="dayn">Day 5</li>
+                    <li class="dayn">Day 6</li>
+                    <li class="dayn">Day 7</li>
+                    <li class="dayn">Day 8</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer" >
+           <p>合作單位：鴻海科技｜勞工局｜康廷數位</p>
+            
+            <p> 
+                2014 <span style="color:#f00;" >YS-版權所有</span>　 高雄市五福路100號 
+            </p>
+        </div>
+
+</body>
+</html>

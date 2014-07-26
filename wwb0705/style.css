@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("css/reset.css");
+@import url("css/normalize.css");
+@import url("css/bootstrap.css");
+@import url("css/bootstrap-responsive.css");
+@import url("theme.css");
+
+
+ <style>
+    /*body:標籤型態選擇器*/
+
+       body{
+        margin:0px;
+       }
+
+    /*#:ID選擇器 */
+       #header{
+        padding:6px 14px;
+        background-color:#000000;
+        color:#f0f8ff;
+        height:120px;
+       }
+    /*#ID,#ID 同一組選擇器*/
+       ##menu{
+
+       }
+
+    /*class:類別選擇器 */
+    .dayn{
+      cursor: pointer;
+        margin:6px 12px;
+        padding:4px;
+        border:1px solid #808080;
+    }
+    /*滑鼠移過樣式*/
+    .dayn:hover{
+      color: red;
+      font-size: 18px;
+      font-weight: 800;
+
+    }
+
+
+    </style>

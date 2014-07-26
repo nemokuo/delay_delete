@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("css/reset.css");
+@import url("css/normalize.css");
+@import url("css/bootstrap.css");
+@import url("css/bootstrap-responsive.css");
+@import url("theme.css");
+
+
+body{
+	background-color:#fbf0ce
+}
+
+.w{
+	width: 960px;
+	position: relative;
+	margin: 0px auto;
+
+}
+.bg2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 960px;
+	height: 960px;
+	z-index: 1;
+	background-image: url("img/bg2.jpg");
+
+}
+
+
+
+.logo{
+	position: absolute;
+	left: 166px;
+	top: 0px;
+	width: 108px;
+	height: 120px;
+	z-index: 2;
+	background-image: url("img/logo.png");
+
+
+}
+.divider{
+	position: absolute;
+	left: 166px;
+	top: 140px;
+	width: 108px;
+	height: 134px;
+	z-index: 3;
+	background-image: url("img/divider.png");
+
+
+}
+.bu2{
+	position: absolute;
+	left: 196px;
+	top: 151px;
+	width: 47px;
+	height: 113px;
+	z-index: 4;
+	background-image: url("img/bu2.png");
+
+}
+.bu1{
+	position: absolute;
+	left: 196px;
+	top: 151px;
+	width: 47px;
+	height: 113px;
+	z-index: 5;
+	background-image: url("img/bu1.png");
+
+}
+.sushi1{
+	position: absolute;
+	left: 601px;
+	top: 0px;
+	width: 186px;
+	height: 112px;
+	z-index: 6;
+	background-image: url("img/sushi1.png");
+
+}
+.sushi2{
+	position: absolute;
+	left: 246px;
+	top: 172px;
+	width: 544px;
+	height: 233px;
+	z-index: 7;
+	background-image: url("img/sushi2.png");
+
+}
+.logo2{
+	position: absolute;
+	left: 519px;
+	top: 136px;
+	width: 256px;
+	height: 71px;
+	z-index: 8;
+	background-image: url("img/logo2.png");
+
+}
+.banner1{
+	position: absolute;
+	left: 182px;
+	top: 445px;
+	width: 290px;
+	height: 147px;
+	z-index: 9;
+	background-image: url("img/banner1.png");
+
+}
+.banner11{
+	position: absolute;
+	left: 20px;
+	top: 45px;
+}
+.banner2{
+	position: absolute;
+	left: 488px;
+	top: 455px;
+	width: 290px;
+	height: 137px;
+	z-index: 10;
+	background-image: url("img/banner2.png");
+
+}
+.banner21{
+	position: absolute;
+	left: 20px;
+	top: 35px;
+}
+.a1{
+	position: absolute;
+	left: 172px;
+	top: 608px;
+	width: 147px;
+	height: 138px;
+	z-index: 11;
+	background-image: url("img/a1.png");
+
+}
+
+
+.a2{
+	position: absolute;
+	left: 325px;
+	top: 608px;
+	width: 147px;
+	height: 138px;
+	z-index: 12;
+	background-image: url("img/a2.png");
+
+}
+.a3{
+	position: absolute;
+	left: 478px;
+	top: 608px;
+	width: 147px;
+	height: 138px;
+	z-index: 13;
+	background-image: url("img/a3.png");
+
+}
+.a4{
+	position: absolute;
+	left: 630px;
+	top: 608px;
+	width: 148px;
+	height: 138px;
+	z-index: 14;
+	background-image: url("img/a4.png");
+
+}
+
+
+
+
+
+.content1{
+	position: absolute;
+	left: 182px;
+	top: 338px;
+	width: 596px;
+	height: 95px;
+	z-index: 15;
+	background-image: url("img/content1.png");
+
+}
+
+.content11{
+	position: absolute;
+	left: 20px;
+	top: 6px;
+}
+
+.content12{
+	position: absolute;
+	left: 320px;
+	top: 35px;
+}
+
+.footer{
+	position: absolute;
+	left: 186px;
+	top: 810px;
+	width: 588px;
+	height: 142px;
+	z-index: 16;
+	background-image: url("img/footer.png");
+
+}
+
+
